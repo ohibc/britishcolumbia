@@ -1,0 +1,62 @@
+# Site wide configuration for https://ohi-science.org/can
+title:       "OHI Canada"
+description: "Ocean Health Index for Canada"
+flag:        flag_80x40.png
+logo:        120x120.gif
+teaser:      400x250.gif
+locale:      en_US
+url:         //ohi-science.org/can
+baseurl:     /can
+study_area:  Canada
+git_owner:   OHI-Science
+git_repo:    can
+git_slug:    OHI-Science/can
+app_url:     https://ohi-science.shinyapps.io/can_app
+
+default_branch_scenario: published/subcountry2014
+
+# Jekyll configuration
+
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+markdown: redcarpet
+redcarpet:
+  extensions: [no_intra_emphasis, fenced_code_blocks, autolink, tables, with_toc_data]
+#markdown: kramdown
+# kramdown:
+#   input:         GFM
+#   auto_ids:      true
+#   footnote_nr:   1
+#   entity_output: as_char
+#   toc_levels:    1..6
+#   smart_quotes:  lsquo,rsquo,ldquo,rdquo
+#   use_coderay:   false
+#   coderay:
+#     coderay_wrap:              div
+#     coderay_line_numbers:      nil
+#     coderay_line_number_start: 1
+#     coderay_tab_width:         4
+#     coderay_bold_every:        10
+#     coderay_css:               style
+highlighter: pygments
+gems:
+  - jekyll-sitemap
+
+# Site owner
+owner:
+  name: Michael Rose
+  web: http://mademistakes.com
+  email: michael@mademistakes.com
+  twitter: mmistakes
+  bio: "Just another boring, tattooed, time traveling designer."
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+  google:
+    plus: +MichaelRoseDesign
+    ad-client: ca-pub-7328585512091257
+    ad-slot: 3049671934
+  disqus-shortname:
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

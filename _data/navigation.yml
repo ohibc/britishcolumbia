@@ -1,0 +1,26 @@
+# Site navigation links
+
+- title: App
+  url: /app/
+  excerpt: "Interactive application to explore existing layers and scores."
+  image: app_400x250.png
+
+- title: Regions
+  url: /regions/
+  excerpt: "Spatial analytical units at subcountry level having various buffer distances inland and offshore."
+  image: regions_400x250.png
+
+- title: Layers
+  url: /layers/
+  excerpt: "Input data files generally defined per region."
+  image: layers_400x250.png
+
+- title: Goals
+  url: /goals/
+  excerpt: "Equations using input layers to formulate each of the goals."
+  image: goals_400x250.png
+
+- title: Scores
+  url: /scores/
+  excerpt: "Scores calculated using the OHI framework and input elements (regions, layers, goals)."
+  image: scores_400x250.png
