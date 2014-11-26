@@ -106,7 +106,7 @@ Data sources:
 
 Data sources:
 
-- [FAO global aquaculture production](http://www.fao.org/fishery/statistics/global-aquaculture-production/en)","tonnes","tons","mar_harvest_tonnes_sc2014-area-offshore3nm.csv","area_offshore_3nm","global mariculture harvest (tonnes) data were applied to each region after weighting by each region's offshore area to 3nm. ","mar_harvest_tonnes","~/github/ohi-global/eez2014/layers/mar_harvest_tonnes.csv","global","rgn_id",,"species_code","year","tonnes",,TRUE,2003,2012,0,15652.9970058541,FALSE,,,580,11,FALSE
+- [FAO global aquaculture production](http://www.fao.org/fishery/statistics/global-aquaculture-production/en)","tonnes","tons","mar_harvest_tonnes_sc2014-area-offshore3nm.csv","area_offshore_3nm","global mariculture harvest (tonnes) data were applied to each region after weighting by each region's offshore area to 3nm. ","mar_harvest_tonnes","~/github/ohi-global/eez2014/layers/mar_harvest_tonnes.csv","global","rgn_id",,"species_code","year","tonnes",,TRUE,2003,2012,0,41302.1841621441,FALSE,,,,11,FALSE
 "MAR","mar_sustainability_score","Mariculture sustainability score","Mariculture sustainability and mariculture regulations indicated by the Mariculture Sustainability Index (MSI). 
 
 Data sources:
@@ -134,7 +134,7 @@ Data sources:
 
 Data sources:
 
-- [FAO fisheries statistics](http://www.fao.org/fishery/statistics/global-capture-production/en)","tonnes","metric tonnes","np_harvest_tonnes_sc2014-area-offshore3nm.csv","area_offshore_3nm","global harvest (tonnes) was applied to each region after weighting by each region's offshore area to 3nm. ","np_harvest_tonnes","~/github/ohi-global/eez2014/layers/np_harvest_tonnes.csv","global","rgn_id",,"product","year","tonnes",,TRUE,1976,2011,0.00240846828541687,2474.55877256455,FALSE,,,400,11,FALSE
+- [FAO fisheries statistics](http://www.fao.org/fishery/statistics/global-capture-production/en)","tonnes","metric tonnes","np_harvest_tonnes_sc2014-area-offshore3nm.csv","area_offshore_3nm","global harvest (tonnes) was applied to each region after weighting by each region's offshore area to 3nm. ","np_harvest_tonnes","~/github/ohi-global/eez2014/layers/np_harvest_tonnes.csv","global","rgn_id",,"product","year","tonnes",,TRUE,1976,2011,0.00240846828541687,6529.4002232471,FALSE,,,,11,FALSE
 "NP","np_harvest_tonnes_relative","Harvest ratio to peak yeild of marine natural products","Ratio to max yield (tonnes) of product peak for six marine products (coral, fish oil, seaweed and plants, shells, sponges, ornamental fish) from FAO.
 
 Data sources:
@@ -283,7 +283,7 @@ Data sources:
 
 - [Worldwide Governance Indicators (WGI)](http://info.worldbank.org/governance/wgi/index.asp)","score","pressure score","ss_wgi_gl2014.csv","equal","global pressures data were applied equally to all regions.","ss_wgi","~/github/ohi-global/eez2014/layers/ss_wgi.csv","global","rgn_id",,,,"score",,TRUE,,,0.178039171298857,0.178039171298857,TRUE,,,,11,FALSE
 "pressures CP","cp_habitat_extent_rank","Habitat extent * rank, per Coastal Protection habitats","Habitat extent * habitat rank for Coastal Protection habitats: coral, mangrove offshore 1km, mangrove inland 1km, saltmarsh, seaice_shoreline and seagrass","extent_rank","rank","cp_habitat_extent_rank_gl2014.csv","equal","global pressures data were applied equally to all regions.","cp_habitat_extent_rank","~/github/ohi-global/eez2014/layers/cp_habitat_extent_rank.csv","global","rgn_id",,"habitat",,"extent_rank",,TRUE,,,3.493,2744160.53921569,FALSE,,,,11,FALSE
-"pressures CS","cs_habitat_extent","Habitat extent * rank, per Carbon Storage habitats","Habitat extent * habitat rank for Carbon Storage habitats: mangrove, saltmarsh and seagrass","km2","km^2","cs_habitat_extent_sc2014-area-offshore3nm.csv","area_offshore_3nm","global habitat extent was applied to each region after weighting by each region's offshore area to 3nm. ","cs_habitat_extent","~/github/ohi-global/eez2014/layers/cs_habitat_extent.csv","global","rgn_id",,"habitat",,"km2",,TRUE,,,0.00841277972096111,91.9780806967925,FALSE,,,8,11,FALSE
+"pressures CS","cs_habitat_extent","Habitat extent * rank, per Carbon Storage habitats","Habitat extent * habitat rank for Carbon Storage habitats: mangrove, saltmarsh and seagrass","km2","km^2","cs_habitat_extent_sc2014-area-offshore3nm.csv","area_offshore_3nm","global habitat extent was applied to each region after weighting by each region's offshore area to 3nm. ","cs_habitat_extent","~/github/ohi-global/eez2014/layers/cs_habitat_extent.csv","global","rgn_id",,"habitat",,"km2",,TRUE,,,0.00841277972096111,242.694458217727,FALSE,,,,11,FALSE
 "pressures CW","po_chemicals","Ocean-based chemical pollution","Modeled ocean-based chemical pollution from commercial shipping traffic and ports and harbors (Halpern et al. 2008).
 
 Data sources:
@@ -429,7 +429,7 @@ Data sources:
 Data sources:
 
 - [VLIZ Maritime Boundaries Geodatabase, version 7](http://www.marineregions.org/)
-","area_km2","km^2","rgn_area_offshore3nm_sc2014-area.csv","raster","spatial data was extracted for each region.","rgn_area_offshore3nm","/Volumes/data_edit/git-annex/clip-n-ship/can/spatial/rgn_offshore3nm_data.csv","subcountry","rgn_id",,"rgn_name",,"area_km2",,TRUE,,,1503.81005859,130522,FALSE,,,4,11,FALSE
+","area_km2","km^2","rgn_area_offshore3nm_sc2014-area.csv","raster","spatial data was extracted for each region.","rgn_area_offshore3nm","/Volumes/data_edit/git-annex/clip-n-ship/can/spatial/rgn_offshore3nm_data.csv","subcountry","rgn_id",,"rgn_name",,"area_km2",,TRUE,,,1503.81005859,344396.9023437,FALSE,,,,11,FALSE
 "spatial","rgn_georegion_labels","Georegion labels per region, at 3 georegion levels","Lookup table of Ocean Health Index regions and UN georegion names at 3 georegion levels.
 
 Data sources:
