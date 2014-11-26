@@ -74,11 +74,11 @@ Data sources:
 Data sources:
 
 - [The World Bank](data.worldbank.org/indicator/NY.GDP.MKTP.CD)
-","usd","2010 USD","le_gdp_sc2014-popn-inland25km.csv","population_inland25km","global GDP data were applied to each region after weighting by each region's coastal population.","le_gdp","~/github/ohi-global/eez2014/layers/le_gdp.csv","global","rgn_id",,,"year","usd",,TRUE,1998,2011,2313314.09199272,863651245183.85,FALSE,,,12,11,FALSE
+","usd","2010 USD","le_gdp_sc2014-popn-inland25km.csv","population_inland25km","global GDP data were applied to each region after weighting by each region's coastal population.","le_gdp","~/github/ohi-global/eez2014/layers/le_gdp.csv","global","rgn_id",,,"year","usd",,TRUE,1998,2011,2313314.09199272,863651245183.85,FALSE,,,,11,FALSE
 "LE","le_jobs_sector_year","Jobs","gapfilled","value","jobs","le_jobs_sector_year_gl2014.csv","equal","global trends were applied equally to each region. ","le_jobs_sector_year","~/github/ohi-global/eez2014/layers/le_jobs_sector_year.csv","global","rgn_id",,"sector","year","value",,TRUE,1999,2010,8.695,332943.422695,FALSE,,,,11,FALSE
 "LE","le_unemployment","Unemployment","gapfilled","percent","percent unemployed","le_unemployment_gl2014.csv","equal","global unemployment percentages were applied equally to each region. ","le_unemployment","~/github/ohi-global/eez2014/layers/le_unemployment.csv","global","rgn_id",,,"year","percent",,TRUE,1999,2010,6.00533832000001,8.25970273,FALSE,,,,11,FALSE
 "LE","le_wage_sector_year","Wages","gapfilled","value","2010 USD","le_wage_sector_year_gl2014.csv","equal","global wages were applied equally to each region. ","le_wage_sector_year","~/github/ohi-global/eez2014/layers/le_wage_sector_year.csv","global","rgn_id",,"sector","year","value",,TRUE,1997,2008,15095.1508524751,79921.5119190706,FALSE,,,,11,FALSE
-"LE","le_workforcesize_adj","Modeled Livelihoods & Economies data","adjusted workforce size","jobs","jobs","le_workforcesize_adj_sc2014-popn-inland25km.csv","population_inland25km","global workforce data were applied to each region after weighting by each region's coastal population.","le_workforcesize_adj","~/github/ohi-global/eez2014/layers/le_workforcesize_adj.csv","global","rgn_id",,,"year","jobs",,TRUE,1990,2012,55.210801248089,9621812.25818343,FALSE,,,23,11,FALSE
+"LE","le_workforcesize_adj","Modeled Livelihoods & Economies data","adjusted workforce size","jobs","jobs","le_workforcesize_adj_sc2014-popn-inland25km.csv","population_inland25km","global workforce data were applied to each region after weighting by each region's coastal population.","le_workforcesize_adj","~/github/ohi-global/eez2014/layers/le_workforcesize_adj.csv","global","rgn_id",,,"year","jobs",,TRUE,1990,2012,55.210801248089,9621812.25818343,FALSE,,,,11,FALSE
 "LE pressures","le_sector_weight","Jobs weighting","Jobs weighting by sector (defaulting to 1)","weight","value","le_sector_weight_gl2014.csv","equal","","le_sector_weight","~/github/ohi-global/eez2014/layers/le_sector_weight.csv","global","rgn_id",,"sector",,"weight",,TRUE,,,1,1,TRUE,,,,11,FALSE
 "LIV ECO","le_popn","Total population by subregion","Population data from The World Bank","count","count","le_popn_gl2014.csv","equal","","le_popn","~/github/ohi-global/eez2014/layers/le_popn.csv","global","rgn_id",,,"year","count",,TRUE,1960,2012,17909009,34880491,FALSE,,,,11,FALSE
 "LSP","lsp_prot_area_inland1km","Coastal protected areas inland 1km","Coastal protected areas inland to 1km from the UN WDPA. 
@@ -169,13 +169,13 @@ Data sources:
 Data sources:
 
 - [The World Bank](http://data.worldbank.org/indicator/SL.TLF.TOTL.IN)
-","count","jobs","tr_jobs_total_sc2014-popn-inland25km.csv","population_inland25km","global total labor force data were applied to each region after weighting by each region's coastal population.","tr_jobs_total","~/github/ohi-global/eez2014/layers/tr_jobs_total.csv","global","rgn_id",,,"year","count",,TRUE,1990,2012,55.210801248089,9621812.25818343,FALSE,,,23,11,FALSE
+","count","jobs","tr_jobs_total_sc2014-popn-inland25km.csv","population_inland25km","global total labor force data were applied to each region after weighting by each region's coastal population.","tr_jobs_total","~/github/ohi-global/eez2014/layers/tr_jobs_total.csv","global","rgn_id",,,"year","count",,TRUE,1990,2012,55.210801248089,9621812.25818343,FALSE,,,,11,FALSE
 "TR","tr_jobs_tourism","Direct employment in tourism","Direct employment in tourism (WTTC).
 
 Data sources:
 
 - [World Travel and Tourism Council (WTTC)](http://www.wttc.org/research/economic-data-search-tool/)
-","count","jobs","tr_jobs_tourism_sc2014-popn-inland25km.csv","population_inland25km","global tourism employee data were applied to each region after weighting by each region's coastal population.","tr_jobs_tourism","~/github/ohi-global/eez2014/layers/tr_jobs_tourism.csv","global","rgn_id",,,"year","count",,TRUE,1988,2013,0.883668684839119,223020.565776285,FALSE,,,26,11,FALSE
+","count","jobs","tr_jobs_tourism_sc2014-popn-inland25km.csv","population_inland25km","global tourism employee data were applied to each region after weighting by each region's coastal population.","tr_jobs_tourism","~/github/ohi-global/eez2014/layers/tr_jobs_tourism.csv","global","rgn_id",,,"year","count",,TRUE,1988,2013,0.883668684839119,223020.565776285,FALSE,,,,11,FALSE
 "TR","tr_sustainability","Sustainability index","Tourism Competitiveness Index (TTCI) from the World Economic Forum","score","score","tr_sustainability_gl2014.csv","equal ","global scores were applied equally to each region. ","tr_sustainability","~/github/ohi-global/eez2014/layers/tr_sustainability.csv","global","rgn_id",,,,"score",,TRUE,,,5.28,5.28,FALSE,,,,11,FALSE
 "TR","tr_unemployment","Percent unemployment","Percent unemployment (The World Bank).
 
@@ -242,7 +242,7 @@ Data sources:
 
 - Center for International Earth Science Information Network (CIESIN)/Columbia University 
 - CIESIN & CIAT (Center for International Earth Science Information Network (CIESIN)/Columbia University, & Centro Internacional de Agricultura Tropical (CIAT)) (2005). **Gridded Population of the World, Version 3 (GPWv3): Population Density Grid, Future Estimates**. Palisades, NY. [NASA Socioeconomic Data and Applications Center (SEDAC)](http://sedac.ciesin.columbia.edu/data/set/gpw-v3-population-density-future-estimates)
-","pressure_score","pressure score","hd_intertidal_sc2014-popn-inland25km.csv","population_inland25km","global intertidal pressures were applied to each region after weighting by each region's coastal population.","hd_intertidal","~/github/ohi-global/eez2014/layers/hd_intertidal.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,5.88104764199508e-08,0.00780039675944456,TRUE,,,1,11,FALSE
+","pressure_score","pressure score","hd_intertidal_sc2014-popn-inland25km.csv","population_inland25km","global intertidal pressures were applied to each region after weighting by each region's coastal population.","hd_intertidal","~/github/ohi-global/eez2014/layers/hd_intertidal.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,5.88104764199508e-08,0.00780039675944456,TRUE,,,,11,FALSE
 "pressures","hd_subtidal_hb","High bycatch artisanal fishing practices as a proxy for subtidal hard bottom habitat destruction","The presence of destructive artisanal blast and poison (cyanide) fishing (Reefs at Risk Revisited).
 
 Data sources:
