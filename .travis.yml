@@ -9,6 +9,7 @@ env:
   - secure: Vz7v7k+oESwTl5Dk++KVLASpF2sjWZSWNdSuVVNtNBOm14SpJT6r8H4sD+VudeMyegjrRrqGah+tguQLO0QmngZen6Xbn8/Qfjn69tFPdF1WZcjsbrBjnp3ss4DaHnqp0eSI1Q3+Dg9K9R1GV89zaYFG3srUkFR3+mNlQAv0oxk=
   - secure: ohY15spHm9eqgDCW0N0TNqALWkmtPQVCSqkGcwx35HsbCrIsPbV23+dz7kd8FKVFxI7Lbbi3QFG55lc8exAwHUcUqzGepURTJIF/tfG/QDfHZs7/0MDWWV09AYjImhnRgVU8Gwk+QWWkDeJXHdLN9o/KDLz6f99QbBzlk47FvFk=
   - secure: aStz8LgDBuJbDiGy5fcy9BROv6u13zh95B5wp7HvD4upL4ZiauvgR6nLvYgfQToDpDP1fFzPUYTSe7QB8AdL5Ikn3/hPMWJasrebd/5JVTjfN7epyEnitJu0A++CXUF3/Be39M3YVI0S6JZIFzEnddCM7z89/+EhYYL3aEzde7o=
+  - secure: kfYEKMxna1f6L8sXo+bM/jl15VGZERVZO7RFnLVykFqgXqn5w5lqZZ7l1Dsit6+aGmj2w5DxMSqFoV2KZ2s7sbgz4Izcj21Pks1Bn5RSoX93La45tuyAMM5zw5lUU0zvcq5Z54IF+h2NUx69ArAxhKKXJ9imzsYoa10OSM4njgw=
 matrix:
   fast_finish: true
 before_install:
