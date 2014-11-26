@@ -1,0 +1,21 @@
+# configuration for https://ohi-science.shinyapps.io/can_app
+study_area:       Canada
+git_owner:        OHI-Science
+git_repo:         can
+git_slug:         OHI-Science/can
+git_url:          https://github.com/OHI-Science/can
+app_url:          https://ohi-science.shinyapps.io/can_app
+default_branch:   published
+default_scenario: subcountry2014
+debug:            False
+last_updated:     2014-11-26
+ohicore_app:
+  git_owner: ohi-science
+  git_repo: ohicore
+  git_branch: dev
+  git_commit: e1defd965ddbdd884893608a25a0b5dd0a1aedd2
+
+tabs_hide:        
+- Calculate
+- Report
+
