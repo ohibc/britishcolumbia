@@ -1,24 +1,20 @@
 language: c
-
 branches:
   only:
-    - draft
-
+  - draft
 env:
   global:
   - default_branch_scenario="published/subcountry2014"
   - study_area="Canada"
-
+  - secure: Vz7v7k+oESwTl5Dk++KVLASpF2sjWZSWNdSuVVNtNBOm14SpJT6r8H4sD+VudeMyegjrRrqGah+tguQLO0QmngZen6Xbn8/Qfjn69tFPdF1WZcjsbrBjnp3ss4DaHnqp0eSI1Q3+Dg9K9R1GV89zaYFG3srUkFR3+mNlQAv0oxk=
 matrix:
-  fast_finish: true # finish at first failure
-
+  fast_finish: true
 before_install:
 - curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
 - curl -OL http://raw.github.com/OHI-Science/ohi-webapps/master/ohi-travis-functions.R
 - chmod 755 ./travis-tool.sh
 - ./travis-tool.sh bootstrap
 - sudo apt-get install pandoc
-
 install:
 - ./travis-tool.sh install_r zoo
 - ./travis-tool.sh install_r psych
@@ -28,21 +24,15 @@ install:
 - ./travis-tool.sh install_r httr
 - ./travis-tool.sh install_github ropensci/git2r
 - ./travis-tool.sh install_github ohi-science/rCharts
-- ./travis-tool.sh install_github ohi-science/ohicore@dev # @master or @2f7a3d7 to specify by commit (https://github.com/OHI-Science/ohicore/commits/master)
+- ./travis-tool.sh install_github ohi-science/ohicore@dev
 - git config --global user.email "bbest@nceas.ucsb.edu"
 - git config --global user.name "Ben Best"
-
 script:
-# execute as a sequence, so if any fail, none of the subsequent commands are executed
-- Rscript ohi-travis-functions.R calculate_scores &&
-  Rscript ohi-travis-functions.R create_results &&
-  Rscript ohi-travis-functions.R push_branch draft &&
-  Rscript ohi-travis-functions.R push_branch published &&
-  Rscript ohi-travis-functions.R create_pages
-
+- Rscript ohi-travis-functions.R calculate_scores && Rscript ohi-travis-functions.R
+  create_results && Rscript ohi-travis-functions.R push_branch draft && Rscript ohi-travis-functions.R
+  push_branch published && Rscript ohi-travis-functions.R create_pages
 after_failure:
 - ./travis-tool.sh dump_logs
-
 notifications:
   email:
     recipients:
