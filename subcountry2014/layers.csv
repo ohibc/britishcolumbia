@@ -96,7 +96,7 @@ Data sources:
 Data sources:
 
 - Center for International Earth Science Information Network (CIESIN)/Columbia University 
-- CIESIN & CIAT (Center for International Earth Science Information Network (CIESIN)/Columbia University, & Centro Internacional de Agricultura Tropical (CIAT)) (2005). **Gridded Population of the World, Version 3 (GPWv3): Population Density Grid, Future Estimates**. Palisades, NY. [NASA Socioeconomic Data and Applications Center (SEDAC)](http://sedac.ciesin.columbia.edu/data/set/gpw-v3-population-density-future-estimates)","popsum","people","mar_coastalpopn_inland25km_sc2014-raster.csv","raster","spatial data was extracted for each region. ","mar_coastalpopn_inland25mi","/Volumes/data_edit/git-annex/clip-n-ship/can/layers/mar_coastalpopn_inland25km_lyr.csv","subcountry","rgn_id",,,"year","popsum",,TRUE,2005,2015,19.5246458373004,2997684.2303462,FALSE,,,,11,FALSE
+- CIESIN & CIAT (Center for International Earth Science Information Network (CIESIN)/Columbia University, & Centro Internacional de Agricultura Tropical (CIAT)) (2005). **Gridded Population of the World, Version 3 (GPWv3): Population Density Grid, Future Estimates**. Palisades, NY. [NASA Socioeconomic Data and Applications Center (SEDAC)](http://sedac.ciesin.columbia.edu/data/set/gpw-v3-population-density-future-estimates)","popsum","people","mar_coastalpopn_inland25km_sc2014-raster.csv","raster","spatial data was extracted for each region. ","mar_coastalpopn_inland25mi","/var/data/ohi/git-annex/clip-n-ship/can/layers/mar_coastalpopn_inland25km_lyr.csv","subcountry","rgn_id",,,"year","popsum",,TRUE,2005,2015,19.5246458373004,2997684.2303462,FALSE,,,,11,FALSE
 "MAR","mar_harvest_species","Mariculture species harvested","Lookup table for mariculture: species Latin names and species code. 
 
 Data sources:
@@ -422,14 +422,14 @@ Data sources:
 Data sources:
 
 - [VLIZ Maritime Boundaries Geodatabase, version 7](http://www.marineregions.org/)
-","area_km2","km^2","rgn_area_sc2014-area.csv","raster","spatial data was extracted for each region.","rgn_area","/Volumes/data_edit/git-annex/clip-n-ship/can/spatial/rgn_offshore_data.csv","subcountry","rgn_id",,"rgn_name",,"area_km2",,TRUE,,,6979.99023438,2257200,FALSE,,,,11,FALSE
-"spatial","rgn_area_inland1km","Region area 1 km inland","inland area 1 km from shore.","area_km2","km^2","rgn_area_inland1km_sc2014-area.csv","raster","spatial data was extracted for each region.","rgn_area_inland1km","/Volumes/data_edit/git-annex/clip-n-ship/can/spatial/rgn_inland1km_data.csv","subcountry","rgn_id",,"rgn_name",,"area_km2",,TRUE,,,351.052210048,94628.0390168,FALSE,,,,11,FALSE
+","area_km2","km^2","rgn_area_sc2014-area.csv","raster","spatial data was extracted for each region.","rgn_area","/var/data/ohi/git-annex/clip-n-ship/can/spatial/rgn_offshore_data.csv","subcountry","rgn_id",,"rgn_name",,"area_km2",,TRUE,,,6979.99023438,2257200,FALSE,,,,11,FALSE
+"spatial","rgn_area_inland1km","Region area 1 km inland","inland area 1 km from shore.","area_km2","km^2","rgn_area_inland1km_sc2014-area.csv","raster","spatial data was extracted for each region.","rgn_area_inland1km","/var/data/ohi/git-annex/clip-n-ship/can/spatial/rgn_inland1km_data.csv","subcountry","rgn_id",,"rgn_name",,"area_km2",,TRUE,,,351.052210048,94628.0390168,FALSE,,,,11,FALSE
 "spatial","rgn_area_offshore3nm","Region area offshore 3nm","Area of Ocean Health Index regions to 3nm (VLIZ 2012). 
 
 Data sources:
 
 - [VLIZ Maritime Boundaries Geodatabase, version 7](http://www.marineregions.org/)
-","area_km2","km^2","rgn_area_offshore3nm_sc2014-area.csv","raster","spatial data was extracted for each region.","rgn_area_offshore3nm","/Volumes/data_edit/git-annex/clip-n-ship/can/spatial/rgn_offshore3nm_data.csv","subcountry","rgn_id",,"rgn_name",,"area_km2",,TRUE,,,1503.81005859,344396.9023437,FALSE,,,,11,FALSE
+","area_km2","km^2","rgn_area_offshore3nm_sc2014-area.csv","raster","spatial data was extracted for each region.","rgn_area_offshore3nm","/var/data/ohi/git-annex/clip-n-ship/can/spatial/rgn_offshore3nm_data.csv","subcountry","rgn_id",,"rgn_name",,"area_km2",,TRUE,,,1503.81005859,344396.9023437,FALSE,,,,11,FALSE
 "spatial","rgn_georegion_labels","Georegion labels per region, at 3 georegion levels","Lookup table of Ocean Health Index regions and UN georegion names at 3 georegion levels.
 
 Data sources:
