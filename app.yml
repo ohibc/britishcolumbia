@@ -8,7 +8,7 @@ app_url:          https://ohi-science.shinyapps.io/can_app
 default_branch:   published
 default_scenario: subcountry2014
 debug:            False
-last_updated:     2014-11-26
+last_updated:     2014-11-28
 ohicore_app:
   git_owner: ohi-science
   git_repo: ohicore
