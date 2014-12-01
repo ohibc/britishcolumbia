@@ -46,14 +46,14 @@ gems:
 
 # Site owner
 owner:
-  name: Michael Rose
-  web: http://mademistakes.com
-  email: michael@mademistakes.com
-  twitter: mmistakes
-  bio: "Just another boring, tattooed, time traveling designer."
+  name: Ben Best
+  web: https://github.com/bbest
+  email: bbest@nceas.ucsb.edu
+  twitter: ben_d_best
+  bio: "Marine ecologist on the geek side."
   avatar: bio-photo.jpg # 160x160 px image for author byline
   google:
-    plus: +MichaelRoseDesign
+    plus: +bbest
     ad-client: ca-pub-7328585512091257
     ad-slot: 3049671934
   disqus-shortname:
